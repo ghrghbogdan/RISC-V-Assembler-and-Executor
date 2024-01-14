@@ -115,10 +115,33 @@ The result will be stored in "a0"
  ## 7. Add Element to Singly Linked List
 
  ### Registers:
-- Set the "a0" register to 0 (array adress)
-- Set the "a1" register to 3 (searched number)
-- Set the "a2" register to 6 (array size)
+- Set the "a0" register to 128 (linked list adress)
+- Set the "a1" register to 3 (element adress)
 - Set the rest of the registers to 0 (!except "cml")
+
+```
+Memory Layout:
++---------------+
+|   data (2B)   |  <-- 0
+|  +6B padding  |
++---------------+
+|   next (8B)   |  <-- 8
+|      <16>     |
++---------------+
+|   data (2B)   |  <-- 16
+|  +6B padding  |  
++---------------+
+|   next (8B)   |  <-- 24
+|      <32>     |  
++---------------+
+|   data (2B)   |  <-- 32
+|  +6B padding  |
++---------------+
+|   next (8B)   |  <-- 40
+|    <NULL>     |
++---------------+
+|   ...         |  <-- (continuarea memoriei)
+```
 
 
 ## How it works:
