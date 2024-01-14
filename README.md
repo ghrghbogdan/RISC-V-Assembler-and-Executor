@@ -1,5 +1,5 @@
-# RISC-V Assembler and Executor
-
+# RISC-V Assembler and Executor 
+<img src="./github/run_code.gif" width="55%"/>
 ## 1. String Length
 
 ### Registers:

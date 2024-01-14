@@ -124,7 +124,6 @@ while True:
         print("Fisierul nu exista. Va rugam introduceti un nume de fisier valid.")
 
 label_adress(assembly_code)
-print(labels)
 write_code("ram.bin", assembly_code)
 
 # afisare binar
