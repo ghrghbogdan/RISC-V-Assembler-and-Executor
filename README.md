@@ -188,7 +188,7 @@ The memory-modifier script is used to append a certain sequence of bits to the m
 
 ### ----------------------------------------------Executor-----------------------------------------------
 
-First step of the execution is storing the ram.bin in a string to be easy to work with. After that the decoding process starts(storing the lenght of the instruction and the operation code) and the call of the instruction itself(every instruction from the RISC-V programs have a function in executor.py with the same name and does the same thing).
+First step of the execution is storing the ram.bin in a string to be easy to work with. After that the decoding process starts(storing the lenght of the instruction and the operation code) and the call of the instruction itself(every instruction from the RISC-V programs has a function in executor.py with the same name and does the same thing).
 
 Each instruction is decoded from the machine code with the necessary arguments (registers, numbers or offsets) and after that the memory or registers values are modified. At the end of the execution the result is stored in the RAM or in the registers.
 
