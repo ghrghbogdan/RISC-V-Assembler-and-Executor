@@ -149,7 +149,7 @@ Memory Layout:
 ```
 The result will be stored in "a0" and memory.
 
-## 8. Reverse a string
+## 8. *Reverse a string
 
 ### Registers:
 - Set the "sp" register to 16 (stack pointer)
@@ -174,6 +174,7 @@ The result will be stored in "a0" and memory.
 The result will be stored in memory.
 
 ## How it works:
-### Assembler
+### ---------------------------------------------Assembler-----------------------------------------------
 
 ### ----------------------------------------------Executor-----------------------------------------------
+
