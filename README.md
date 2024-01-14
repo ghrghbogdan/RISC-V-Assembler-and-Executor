@@ -1,7 +1,7 @@
 # RISC-V Assembler and Executor
 
 ## The objective of the project:
-The project contains two scripts: one named "assambler", that transforms the RISC-V assembly to machine code using huffman coding, and the other named "executor", that decodes the instructions and executes them. The main.py script is used for providing a user interface(only on linux).
+The project contains two main scripts: one named "assambler.py", that transforms the RISC-V assembly program to machine code using huffman coding, and the other named "executor.py", that decodes the instructions and executes them. Beside those two there is another script named "memory_modifier.py", that allows to change the binary ram file and adds the variables after the machine code. The "main.py" script is used for providing a user interface(only on linux) that combines those three scripts.
 
 ## Project completed by:
 ```
@@ -14,12 +14,19 @@ Sincari Sebastian-George(143)
 ```
 python3 main.py
 ```
+### Example RISC-V Assembly Programs
+https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/
+
+The assembly programs are located in the ./code directory(you can add other programs there too).
+
+### Steps:
+- Enter the name of the program
+- Modify the values of the registers
+- Enter the variables in RAM
+- Execute the code
+
 <img src="./github/run_code.gif" width="100%"/>
 
-## Example RISC-V Assembly Programs
-```
-https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/
-```
 
 ## 1. String Length
 
