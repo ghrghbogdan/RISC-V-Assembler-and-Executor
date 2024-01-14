@@ -1,5 +1,26 @@
-# RISC-V Assembler and Executor 
+# RISC-V Assembler and Executor
+
+## The objective of the project:
+The project contains two scripts: one named "assambler", that transforms the RISC-V assembly to machine code using huffman coding, and the other named "executor", that decodes the instructions and executes them. The main.py script is used for providing a user interface(only on linux).
+
+## Project completed by:
+```
+Andrei Cristian-David(143)
+Gheorghe Bogdan-Alexandru(143)
+Sincari Sebastian-George(143)
+```
+
+## Syntax for running the script:
+```
+python3 main.py
+```
 <img src="./github/run_code.gif" width="80%"/>
+
+## Example RISC-V Assembly Programs
+```
+https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/
+```
+
 ## 1. String Length
 
 ### Registers:
