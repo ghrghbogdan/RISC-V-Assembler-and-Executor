@@ -178,3 +178,4 @@ The result will be stored in memory.
 
 ### ----------------------------------------------Executor-----------------------------------------------
 
+    First step of the execution is storing ram.bin in a string to be easy to work with. After that the decodeing process (lenght of the operation + operation code) and call to that function (every operation from RISC-V have in executor.py a function with the same name and does the same thing).
