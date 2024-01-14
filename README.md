@@ -116,7 +116,7 @@ The result will be stored in "a0"
 
  ### Registers:
 - Set the "a0" register to 128 (linked list adress)
-- Set the "a1" register to 3 (element adress)
+- Set the "a1" register to 0 (element adress)
 - Set the rest of the registers to 0 (!except "cml")
 
 ```
@@ -140,9 +140,13 @@ Memory Layout:
 |   next (8B)   |  <-- 40
 |    <NULL>     |
 +---------------+
-|   ...         |  <-- (continuarea memoriei)
+|   ...         |  <-- (continuation of memory)
 ```
-
+### Memory
+[(1023, &16), (2047,&32), (511, NULL)]
+```
+000000000000000000000000000000000000000000000000000000111111111100000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000011111111111000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000001111111110000000000000000000000000000000000000000000000000000000000000000
+```
 
 ## How it works:
 ### Assembler
