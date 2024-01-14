@@ -172,10 +172,10 @@ The result will be stored in "a0" and memory.
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000010000100111010101101110011000010010000001001100011101010110110101100101001000000010000100000000
 ```
 The result should be stored in memory, but due to the lack of time we didn't make it work (but the 'call'
-operation and 'strlen' function works good :) ).
+operation and 'strlen' function works good ).
 
 ## How it works:
-### ---------------------------------------------Assembler-----------------------------------------------
+### ---------------------------------------------Assembler----------------------------------------------
 
 ### ----------------------------------------------Executor-----------------------------------------------
 
@@ -187,3 +187,6 @@ Each function decodes from the machine code the necessary parameters (registers,
 modify the memory or registers value. At the end of the execution the result is stored in one of them.
 
 !Memory is indexed from 0 and when you put the adress of an array in a register, calculate it in Bytes !
+
+An interesting thing in this code is the way we call a function after decoding it and also the management
+of the registers.
