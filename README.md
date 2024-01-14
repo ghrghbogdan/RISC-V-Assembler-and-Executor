@@ -17,7 +17,7 @@ python3 main.py
 ### Example RISC-V Assembly Programs
 https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/
 
-The assembly programs are located in the ./code directory(you can add other programs there too).
+The assembly programs are located in the ./code directory (you can add other programs there too).
 
 ### Steps:
 - Enter the name of the program
@@ -25,7 +25,7 @@ The assembly programs are located in the ./code directory(you can add other prog
 - Enter the variables in RAM
 - Execute the code
 
-<img src="./github/run_code.gif" width="100%"/>
+<img src="./github/demo.gif" width="100%"/>
 
 
 ## 1. String Length
