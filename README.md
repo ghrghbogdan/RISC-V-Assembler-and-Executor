@@ -111,3 +111,17 @@ The result will be stored in RAM
 000000000000000000000000000000010000000000000000000000000000001000000000000000000000000000000011000000000000000000000000000001000000000000000000000000000000010100000000000000000000000000000110
 ```
 The result will be stored in "a0"
+
+ ## 7. Add Element to Singly Linked List
+
+ ### Registers:
+- Set the "a0" register to 0 (array adress)
+- Set the "a1" register to 3 (searched number)
+- Set the "a2" register to 6 (array size)
+- Set the rest of the registers to 0 (!except "cml")
+
+
+## How it works:
+### Assembler
+
+### Executor
