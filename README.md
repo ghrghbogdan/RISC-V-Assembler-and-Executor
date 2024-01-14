@@ -182,7 +182,7 @@ The assembler starts by calculating the adresses of each label in a different se
 
 After that, in the "write_code" function, the transformation of the instructions from strings to their binary encoded version takes place. This is done by spliting the text into tokens and transforming them into bits. The bits are then stored in a binary file and they represent the machine code.
 
-### ------------------------------------------Memory-Modifier-------------------------------------------
+### ------------------------------------------Memory-Modifier-----------------------------------------
 
 The memory-modifier script is used to append a certain sequence of bits to the machine code. The sequence represents the memory variables.
 
