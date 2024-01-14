@@ -14,7 +14,7 @@ Sincari Sebastian-George(143)
 ```
 python3 main.py
 ```
-<img src="./github/run_code.gif" width="80%"/>
+<img src="./github/run_code.gif" width="100%"/>
 
 ## Example RISC-V Assembly Programs
 ```
