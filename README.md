@@ -171,7 +171,8 @@ The result will be stored in "a0" and memory.
 ```
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000010000100111010101101110011000010010000001001100011101010110110101100101001000000010000100000000
 ```
-The result will be stored in memory.
+The result should be stored in memory, but due to the lack of time we didn't make it work (but the 'call'
+operation and 'strlen' function works good :) ).
 
 ## How it works:
 ### ---------------------------------------------Assembler-----------------------------------------------
@@ -180,4 +181,9 @@ The result will be stored in memory.
 
 First step of the execution is storing ram.bin in a string to be easy to work with. After that the 
 decodeing process (lenght of the operation + operation code) and call to that function (every 
-operation from RISC-V have in executor.py a function with the same name and does the same thing).
+operation from RISC-V code have in executor.py a function with the same name and does the same thing).
+
+Each function decodes from the machine code the necessary parameters (registers, numbers or offsets) and
+modify the memory or registers value. At the end of the execution the result is stored in one of them.
+
+!Memory is indexed from 0 and when you put the adress of an array in a register, calculate it in Bytes !
