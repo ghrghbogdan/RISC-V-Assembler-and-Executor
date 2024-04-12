@@ -1,5 +1,7 @@
 # RISC-V Assembler and Executor
 
+<img src="./github/risc-v.png" width="100%" />
+
 ## The objective of the project:
 The project contains two main scripts: one named "assambler.py", that transforms the RISC-V assembly program to machine code using huffman coding, and the other named "executor.py", that decodes the instructions and executes them. Beside those two there is another script named "memory_modifier.py", that allows to change the binary ram file and adds the variables after the machine code. The "main.py" script is used for providing a user interface(only on linux) that combines those three scripts.
 
