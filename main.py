@@ -11,7 +11,7 @@ while True:
     elif (raspuns == "n" or raspuns == "N"):
         break
     else:
-        print("Invalid answer.")
+        print("Invalid answer.") 
 
 subprocess.run("python3 memory_modifier.py", shell=True, check=True)
 
