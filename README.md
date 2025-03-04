@@ -7,9 +7,9 @@ The project contains two main scripts: one named "assambler.py", that transforms
 
 ## Project completed by:
 ```
-Andrei Cristian-David(143)
-Gheorghe Bogdan-Alexandru(143)
-Sincari Sebastian-George(143)
+Andrei Cristian-David
+Gheorghe Bogdan-Alexandru
+Sincari Sebastian-George
 ```
 
 ## Syntax for running the script:
